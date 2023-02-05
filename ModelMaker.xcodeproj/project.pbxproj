@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B50C8AF298F9DB90079055E /* String+MM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C8AE298F9DB90079055E /* String+MM.swift */; };
+		3B50C8B3298FAAD80079055E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C8B2298FAAD80079055E /* MainViewModel.swift */; };
+		3B50C8B5298FB1DA0079055E /* ModelMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C8B4298FB1DA0079055E /* ModelMaker.swift */; };
+		3BF8F057298F7EB4007F1439 /* ModelMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F056298F7EB4007F1439 /* ModelMakerApp.swift */; };
+		3BF8F059298F7EB4007F1439 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F058298F7EB4007F1439 /* ContentView.swift */; };
+		3BF8F05B298F7EB5007F1439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8F05A298F7EB5007F1439 /* Assets.xcassets */; };
+		3BF8F05E298F7EB5007F1439 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8F05D298F7EB5007F1439 /* Preview Assets.xcassets */; };
+		3BF8F060298F7EB5007F1439 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F05F298F7EB5007F1439 /* Persistence.swift */; };
+		3BF8F063298F7EB5007F1439 /* ModelMaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F061298F7EB5007F1439 /* ModelMaker.xcdatamodeld */; };
+		3BF8F06E298F7EB5007F1439 /* ModelMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F06D298F7EB5007F1439 /* ModelMakerTests.swift */; };
+		3BF8F078298F7EB5007F1439 /* ModelMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F077298F7EB5007F1439 /* ModelMakerUITests.swift */; };
+		3BF8F07A298F7EB5007F1439 /* ModelMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F079298F7EB5007F1439 /* ModelMakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BF8F06A298F7EB5007F1439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF8F04B298F7EB4007F1439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BF8F052298F7EB4007F1439;
+			remoteInfo = ModelMaker;
+		};
+		3BF8F074298F7EB5007F1439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF8F04B298F7EB4007F1439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BF8F052298F7EB4007F1439;
+			remoteInfo = ModelMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B50C8AE298F9DB90079055E /* String+MM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MM.swift"; sourceTree = "<group>"; };
+		3B50C8B2298FAAD80079055E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3B50C8B4298FB1DA0079055E /* ModelMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMaker.swift; sourceTree = "<group>"; };
+		3BF8F053298F7EB4007F1439 /* ModelMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF8F056298F7EB4007F1439 /* ModelMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMakerApp.swift; sourceTree = "<group>"; };
+		3BF8F058298F7EB4007F1439 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BF8F05A298F7EB5007F1439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF8F05D298F7EB5007F1439 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BF8F05F298F7EB5007F1439 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3BF8F062298F7EB5007F1439 /* ModelMaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelMaker.xcdatamodel; sourceTree = "<group>"; };
+		3BF8F064298F7EB5007F1439 /* ModelMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ModelMaker.entitlements; sourceTree = "<group>"; };
+		3BF8F069298F7EB5007F1439 /* ModelMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF8F06D298F7EB5007F1439 /* ModelMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMakerTests.swift; sourceTree = "<group>"; };
+		3BF8F073298F7EB5007F1439 /* ModelMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF8F077298F7EB5007F1439 /* ModelMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMakerUITests.swift; sourceTree = "<group>"; };
+		3BF8F079298F7EB5007F1439 /* ModelMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF8F050298F7EB4007F1439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF8F066298F7EB5007F1439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF8F070298F7EB5007F1439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B50C8AD298F9DA30079055E /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B50C8AE298F9DB90079055E /* String+MM.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		3BF8F04A298F7EB4007F1439 = {
+			isa = PBXGroup;
+			children = (
+				3BF8F055298F7EB4007F1439 /* ModelMaker */,
+				3BF8F06C298F7EB5007F1439 /* ModelMakerTests */,
+				3BF8F076298F7EB5007F1439 /* ModelMakerUITests */,
+				3BF8F054298F7EB4007F1439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF8F054298F7EB4007F1439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF8F053298F7EB4007F1439 /* ModelMaker.app */,
+				3BF8F069298F7EB5007F1439 /* ModelMakerTests.xctest */,
+				3BF8F073298F7EB5007F1439 /* ModelMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF8F055298F7EB4007F1439 /* ModelMaker */ = {
+			isa = PBXGroup;
+			children = (
+				3BF8F064298F7EB5007F1439 /* ModelMaker.entitlements */,
+				3BF8F058298F7EB4007F1439 /* ContentView.swift */,
+				3B50C8B2298FAAD80079055E /* MainViewModel.swift */,
+				3BF8F056298F7EB4007F1439 /* ModelMakerApp.swift */,
+				3BF8F05F298F7EB5007F1439 /* Persistence.swift */,
+				3BF8F05A298F7EB5007F1439 /* Assets.xcassets */,
+				3B50C8AD298F9DA30079055E /* extension */,
+				3BF8F061298F7EB5007F1439 /* ModelMaker.xcdatamodeld */,
+				3BF8F05C298F7EB5007F1439 /* Preview Content */,
+				3B50C8B4298FB1DA0079055E /* ModelMaker.swift */,
+			);
+			path = ModelMaker;
+			sourceTree = "<group>";
+		};
+		3BF8F05C298F7EB5007F1439 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BF8F05D298F7EB5007F1439 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BF8F06C298F7EB5007F1439 /* ModelMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BF8F06D298F7EB5007F1439 /* ModelMakerTests.swift */,
+			);
+			path = ModelMakerTests;
+			sourceTree = "<group>";
+		};
+		3BF8F076298F7EB5007F1439 /* ModelMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BF8F077298F7EB5007F1439 /* ModelMakerUITests.swift */,
+				3BF8F079298F7EB5007F1439 /* ModelMakerUITestsLaunchTests.swift */,
+			);
+			path = ModelMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF8F052298F7EB4007F1439 /* ModelMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF8F07D298F7EB5007F1439 /* Build configuration list for PBXNativeTarget "ModelMaker" */;
+			buildPhases = (
+				3BF8F04F298F7EB4007F1439 /* Sources */,
+				3BF8F050298F7EB4007F1439 /* Frameworks */,
+				3BF8F051298F7EB4007F1439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModelMaker;
+			productName = ModelMaker;
+			productReference = 3BF8F053298F7EB4007F1439 /* ModelMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BF8F068298F7EB5007F1439 /* ModelMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF8F080298F7EB5007F1439 /* Build configuration list for PBXNativeTarget "ModelMakerTests" */;
+			buildPhases = (
+				3BF8F065298F7EB5007F1439 /* Sources */,
+				3BF8F066298F7EB5007F1439 /* Frameworks */,
+				3BF8F067298F7EB5007F1439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF8F06B298F7EB5007F1439 /* PBXTargetDependency */,
+			);
+			name = ModelMakerTests;
+			productName = ModelMakerTests;
+			productReference = 3BF8F069298F7EB5007F1439 /* ModelMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BF8F072298F7EB5007F1439 /* ModelMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF8F083298F7EB5007F1439 /* Build configuration list for PBXNativeTarget "ModelMakerUITests" */;
+			buildPhases = (
+				3BF8F06F298F7EB5007F1439 /* Sources */,
+				3BF8F070298F7EB5007F1439 /* Frameworks */,
+				3BF8F071298F7EB5007F1439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF8F075298F7EB5007F1439 /* PBXTargetDependency */,
+			);
+			name = ModelMakerUITests;
+			productName = ModelMakerUITests;
+			productReference = 3BF8F073298F7EB5007F1439 /* ModelMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF8F04B298F7EB4007F1439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3BF8F052298F7EB4007F1439 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3BF8F068298F7EB5007F1439 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3BF8F052298F7EB4007F1439;
+					};
+					3BF8F072298F7EB5007F1439 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3BF8F052298F7EB4007F1439;
+					};
+				};
+			};
+			buildConfigurationList = 3BF8F04E298F7EB4007F1439 /* Build configuration list for PBXProject "ModelMaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF8F04A298F7EB4007F1439;
+			productRefGroup = 3BF8F054298F7EB4007F1439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF8F052298F7EB4007F1439 /* ModelMaker */,
+				3BF8F068298F7EB5007F1439 /* ModelMakerTests */,
+				3BF8F072298F7EB5007F1439 /* ModelMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF8F051298F7EB4007F1439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF8F05E298F7EB5007F1439 /* Preview Assets.xcassets in Resources */,
+				3BF8F05B298F7EB5007F1439 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF8F067298F7EB5007F1439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF8F071298F7EB5007F1439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF8F04F298F7EB4007F1439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B50C8B5298FB1DA0079055E /* ModelMaker.swift in Sources */,
+				3B50C8B3298FAAD80079055E /* MainViewModel.swift in Sources */,
+				3BF8F063298F7EB5007F1439 /* ModelMaker.xcdatamodeld in Sources */,
+				3BF8F060298F7EB5007F1439 /* Persistence.swift in Sources */,
+				3BF8F059298F7EB4007F1439 /* ContentView.swift in Sources */,
+				3BF8F057298F7EB4007F1439 /* ModelMakerApp.swift in Sources */,
+				3B50C8AF298F9DB90079055E /* String+MM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF8F065298F7EB5007F1439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF8F06E298F7EB5007F1439 /* ModelMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF8F06F298F7EB5007F1439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF8F078298F7EB5007F1439 /* ModelMakerUITests.swift in Sources */,
+				3BF8F07A298F7EB5007F1439 /* ModelMakerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BF8F06B298F7EB5007F1439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BF8F052298F7EB4007F1439 /* ModelMaker */;
+			targetProxy = 3BF8F06A298F7EB5007F1439 /* PBXContainerItemProxy */;
+		};
+		3BF8F075298F7EB5007F1439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BF8F052298F7EB4007F1439 /* ModelMaker */;
+			targetProxy = 3BF8F074298F7EB5007F1439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BF8F07B298F7EB5007F1439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF8F07C298F7EB5007F1439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3BF8F07E298F7EB5007F1439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ModelMaker/ModelMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = FCJEH875NK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utils.ModelMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3BF8F07F298F7EB5007F1439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ModelMaker/ModelMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = FCJEH875NK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utils.ModelMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3BF8F081298F7EB5007F1439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCJEH875NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utils.ModelMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModelMaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModelMaker";
+			};
+			name = Debug;
+		};
+		3BF8F082298F7EB5007F1439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCJEH875NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utils.ModelMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModelMaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModelMaker";
+			};
+			name = Release;
+		};
+		3BF8F084298F7EB5007F1439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCJEH875NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utils.ModelMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ModelMaker;
+			};
+			name = Debug;
+		};
+		3BF8F085298F7EB5007F1439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCJEH875NK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utils.ModelMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ModelMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF8F04E298F7EB4007F1439 /* Build configuration list for PBXProject "ModelMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF8F07B298F7EB5007F1439 /* Debug */,
+				3BF8F07C298F7EB5007F1439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF8F07D298F7EB5007F1439 /* Build configuration list for PBXNativeTarget "ModelMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF8F07E298F7EB5007F1439 /* Debug */,
+				3BF8F07F298F7EB5007F1439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF8F080298F7EB5007F1439 /* Build configuration list for PBXNativeTarget "ModelMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF8F081298F7EB5007F1439 /* Debug */,
+				3BF8F082298F7EB5007F1439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF8F083298F7EB5007F1439 /* Build configuration list for PBXNativeTarget "ModelMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF8F084298F7EB5007F1439 /* Debug */,
+				3BF8F085298F7EB5007F1439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BF8F061298F7EB5007F1439 /* ModelMaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BF8F062298F7EB5007F1439 /* ModelMaker.xcdatamodel */,
+			);
+			currentVersion = 3BF8F062298F7EB5007F1439 /* ModelMaker.xcdatamodel */;
+			path = ModelMaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BF8F04B298F7EB4007F1439 /* Project object */;
+}

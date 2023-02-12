@@ -10,6 +10,7 @@
 		3B50C8AF298F9DB90079055E /* String+MM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C8AE298F9DB90079055E /* String+MM.swift */; };
 		3B50C8B3298FAAD80079055E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C8B2298FAAD80079055E /* MainViewModel.swift */; };
 		3B50C8B5298FB1DA0079055E /* ModelMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B50C8B4298FB1DA0079055E /* ModelMaker.swift */; };
+		3BCD29022998C2170058D6F2 /* Publisher+MM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD29012998C2170058D6F2 /* Publisher+MM.swift */; };
 		3BF8F057298F7EB4007F1439 /* ModelMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F056298F7EB4007F1439 /* ModelMakerApp.swift */; };
 		3BF8F059298F7EB4007F1439 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F058298F7EB4007F1439 /* ContentView.swift */; };
 		3BF8F05B298F7EB5007F1439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8F05A298F7EB5007F1439 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		3B50C8AE298F9DB90079055E /* String+MM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MM.swift"; sourceTree = "<group>"; };
 		3B50C8B2298FAAD80079055E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		3B50C8B4298FB1DA0079055E /* ModelMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMaker.swift; sourceTree = "<group>"; };
+		3BCD29012998C2170058D6F2 /* Publisher+MM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+MM.swift"; sourceTree = "<group>"; };
 		3BF8F053298F7EB4007F1439 /* ModelMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF8F056298F7EB4007F1439 /* ModelMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMakerApp.swift; sourceTree = "<group>"; };
 		3BF8F058298F7EB4007F1439 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				3B50C8AE298F9DB90079055E /* String+MM.swift */,
+				3BCD29012998C2170058D6F2 /* Publisher+MM.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				3BF8F059298F7EB4007F1439 /* ContentView.swift in Sources */,
 				3BF8F057298F7EB4007F1439 /* ModelMakerApp.swift in Sources */,
 				3B50C8AF298F9DB90079055E /* String+MM.swift in Sources */,
+				3BCD29022998C2170058D6F2 /* Publisher+MM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

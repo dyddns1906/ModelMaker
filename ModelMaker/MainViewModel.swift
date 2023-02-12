@@ -46,100 +46,28 @@ extension MainViewModel {
         
         let testContent = """
     {
-        "manage": {
-            "dummy": false,
-            "reRegistered": false,
-            "webReserved": false,
-            "registDateTime": "2023-01-25T16:12:34",
-            "firstAdvertisedDateTime": "2023-01-25T16:25:53",
-            "modifyDateTime": "2023-01-30T14:25:01",
-            "subscribeCount": 9.24,
-            "viewCount": 52
+      "person": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 30,
+        "email": "john.doe@example.com",
+        "address": {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "state": "CA",
+          "zip": "12345"
         },
-        "category": {
-            "type": "CAR",
-            "manufacturerCd": "001",
-            "manufacturerName": "현대",
-            "modelCd": "140",
-            "modelName": "i30 (PD)",
-            "gradeCd": "002",
-            "gradeName": "1.6 터보",
-            "yearMonth": "202301",
-            "formYear": "2024",
-            "domestic": true,
-            "importType": null,
-            "originPrice": 2208,
-            "manufacturerEnglishName": "Hyundai",
-            "modelGroupCd": "001",
-            "modelGroupName": "i30",
-            "modelGroupEnglishName": "i30",
-            "gradeDetailCd": "004",
-            "gradeDetailName": "스포츠 에센스 에디션",
-            "jatoVehicleId": 810804820190701,
-            "warranty": {
-                "userDefined": false,
-                "companyName": null,
-                "bodyMonth": 36,
-                "bodyMileage": 60000,
-                "transmissionMonth": 60,
-                "transmissionMileage": 100000
-            }
-        },
-        "advertisement": {
-            "type": "CAR",
-            "price": 700,
-            "status": "ADVERTISE",
-            "warrantyStyleColor": null,
-            "trust": [],
-            "hotMark": [],
-            "oneLineText": null,
-            "salesStatus": null,
-            "advertisementType": "NORMAL",
-            "diagnosisCar": false
-        },
-        "contact": {
-            "userId": "fjsekf1",
-            "userType": "REPEAT",
-            "no": "01033311303",
-            "address": "서울 서대문구",
-            "contactType": "MOBILE"
-        },
-        "spec": {
-            "type": "CAR",
-            "mileage": 10,
-            "displacement": 1591,
-            "transmissionName": "오토",
-            "fuelCd": "001",
-            "fuelName": "가솔린",
-            "colorName": "검정색",
-            "customColor": null,
-            "bodyName": "준중형차"
-        },
-        "photos": [],
-        "condition": {
-            "accident": {
-                "recordView": false
-            },
-            "inspection": {
-                "formats": []
-            },
-            "seizing": {
-                "seizingCount": null,
-                "pledgeCount": null
-            }
-        },
-        "partnership": {
-            "brand": null,
-            "testdrive": {
-                "active": false
-            }
-        },
-        "contents": {
-            "text": "설명글은 인사말 / 차량상태 / 차주정보 등을 입력하시면 됩니다."
-        },
-        "vehicleType": "CAR",
-        "vehicleId": 28683549,
-        "vehicleNo": "33서4299"
+        "phoneNumbers": [
+          {
+            "type": "home",
+            "number": "555-555-1234"
+          },
+          {
+            "type": "work",
+            "number": "555-555-5678"
+          }
+        ]
+      }
     }
     """
         jsonString.send(testContent)

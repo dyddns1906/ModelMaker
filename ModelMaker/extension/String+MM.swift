@@ -8,13 +8,14 @@
 import Foundation
 
 extension String {
-    func toDictionary() -> [String:AnyObject]? {
+    func toDictionary() -> [String:Any]? {
         if let data = self.data(using: .utf8) {
             do {
-                let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:AnyObject]
+                let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:Any]
                 return json
             } catch {
-                print("Something went wrong")
+                print(error.localizedDescription)
+                return nil
             }
         }
         return nil
